@@ -1,1 +1,61 @@
-/* Stylesheet */
+/* Global & Structure */
+
+.home{
+	background: orange;
+	}
+	
+.gallery{
+	background: teal;
+}
+
+.container{
+	background: yellow;
+	margin: 0 auto 0 auto;
+	overflow: auto;
+	width: 960px;
+}
+
+/* Nav */
+.home #home{
+	background: red;
+	font-weight: bold;	
+}
+
+.gallery #gallery{
+	background: red;
+	font-weight: bold;	
+}
+
+nav{
+	float: left;
+	width: 960px;	
+}
+
+nav li{
+	background: #fff;
+	float: left;
+	list-style: none;
+	margin: 20px;
+	padding: 30px;
+}
+
+/* Gallery */
+section{
+	background: aliceblue;
+	border: 10px solid white;
+	float:left;
+	margin: 20px;
+	
+}
+
+section{
+	position: relative;
+}
+
+section h3{
+	background: aqua;
+	position: absolute;
+	top: 0;
+	left: -20px;
+}
+
